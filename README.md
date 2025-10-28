@@ -1,5 +1,5 @@
-Internship E-commerce Website Prototype
-Project Description
+#Internship E-commerce Website Prototype
+##Project Description
 This project is a full-featured e-commerce website prototype developed during an internship to simulate real-world online shopping workflows and UI/UX patterns. The application showcases a dynamic product catalog, interactive shopping features, and a modular codebase, implemented using standard web technologies and a JavaScript framework. It also leverages MongoDB for data management, providing a solid demonstration of a modern, scalable e-commerce solution.​
 
 Main Purpose
