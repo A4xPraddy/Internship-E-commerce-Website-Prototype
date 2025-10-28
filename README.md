@@ -19,13 +19,13 @@ The main purpose of this project is to demonstrate practical web development ski
 ### -> Ready-to-extend with additional features (cart, checkout, authentication, etc.).
 
 ## Technologies Used
-HTML5, CSS3, JavaScript (core stack).
+### -> HTML5, CSS3, JavaScript (core stack).
 
-JavaScript Framework (please specify: React, Angular, Vue, Express, etc.).
+### -> JavaScript Framework (please specify: React, Angular, Vue, Express, etc.).
 
-MongoDB for database management.
+### -> MongoDB for database management.
 
-Optional: Bootstrap, jQuery, or other supporting libraries.
+### -> Optional: Bootstrap, jQuery, or other supporting libraries.
 
 ## Directory Structure
 css/        # Stylesheets and theme files
