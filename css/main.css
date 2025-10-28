@@ -1,0 +1,726 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+
+}
+.navbar {
+	background:#ffffff;
+}
+.navbar-nav  li a:hover {
+	color:#051a92 !important;
+}
+.navbar .webT {
+	font-size: 20px;
+}
+
+/*Slider*/
+
+.carousel-item {
+	height: 600px;
+}
+.crs-img-1 {
+	background: url('../img/slider-img1.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+.crs-img-2 {
+	background: url('../img/slider-img2.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+.crs-img-3 {
+	background: url('../img/slider-img3.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+.crs-img-4 {
+	background: url('../img/slider-img4.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.crs-img-1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+}
+.crs-img-2::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+}
+.crs-img-3::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+}
+.crs-img-4::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+}
+
+/*Showcase*/
+#showcase .fas {
+	font-size: 35px;
+}
+
+/*Get Started*/
+#get-started {
+	background: url('../img/showcase2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	margin-bottom: 50px; /* Add margin to the bottom to create spacing */
+}
+#get-started .inner-overlay {
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%
+}
+
+/*Info */
+#info .infoS {
+	margin-top: 70px;
+}
+#info img {
+	border-radius: 5px;
+}
+
+/* Video Section */
+#video {
+    position: relative;
+    background: url('../img/video.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    margin-top: 50px; /* Adjust this value as needed */
+    margin-bottom: 50px; /* Add margin to the bottom to create spacing */
+}
+
+#video .video-overlay {
+    position: absolute;
+    min-height: 300px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#video .fas {
+    color: #ff0000;
+    font-size: 50px;
+}
+
+.video-container {
+    margin-top: 80px; /* Adjust this value as needed */
+}
+
+.video-container > video {
+    width: 100%; /* Set the video width to 100% of the container (screen width) */
+    height: 487px; /* Fixed height of 487 pixels */
+}
+
+#slider {
+    margin-bottom: 80px; /* Adjust this value as needed */
+}
+
+
+/* Gallery Section */
+/* Outer box styling */
+.outer-box {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+/* Colored box styling */
+.colored-box {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+/* Adjust the height of images */
+#product-gallery .carousel-item img {
+    height: 100px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20px; /* Add margin to the top */
+    margin-bottom: 20px; /* Add margin to the bottom */
+}
+
+/* Ensure carousel controls are visible */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Make the background color semi-transparent for visibility */
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* Center align text within each column */
+#product-gallery .carousel-item .col {
+    text-align: center;
+}
+
+/* Lightbox styling */
+[data-toggle="lightbox"] {
+    display: block;
+}
+
+#gallery img {
+    max-height: 100px;
+    width: 100%;
+}
+
+
+/* Life at eKors Section */
+/* Life at eKors Section */
+/* Life at eKors Section */
+
+/* Life at eKors Section */
+#life-at-ekors {
+    background: linear-gradient(to bottom, rgba(212, 176, 176, 0.5), rgba(0, 0, 0, 0.5)), url('../img/slider-img1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    position: relative;
+    padding: 100px 0; /* Adjust padding as needed */
+}
+
+#life-at-ekors .inner-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Adjust overlay color and opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+/* Marquee effect for Life at Ekors and Our Family */
+.marquee-wrapper {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #000; /* Optional: Background color */
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-right: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee-content h2,
+.marquee-content p {
+    display: inline;
+    color: #fff; /* Text color */
+    font-size: 3em; /* Adjust font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+    margin: 0; /* Remove default margins */
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Adjust the spacing below the marquee container */
+.marquee-wrapper + section {
+    margin-top: 60px; /* Adjust spacing as needed */
+}
+
+#lifeAtCarousel .carousel-item img {
+    height: 400px; /* Adjust image height as needed */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#lifeAtCarousel .outer-box {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Adjust height to match image height */
+}
+
+#lifeAtCarousel .outer-box .inner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust overlay color and opacity */
+    z-index: 3;
+}
+
+@media (max-width: 767px) {
+    #lifeAtCarousel .outer-box {
+        height: 250px; /* Adjust height for smaller screens */
+    }
+
+    #lifeAtCarousel .carousel-item img {
+        height: 250px; /* Adjust image height for smaller screens */
+    }
+}
+
+/*Footer*/
+#footer{
+	background:#000;
+}
+#footer .fab{
+	font-size:25px;
+	color:#fff;
+	border: 1px solid #7f8c8d;
+	padding: 5px;
+}
+#footer .fab:hover{
+	color: #ff0000;
+	border-color: #000;
+}
+
+
+/*About Page*/
+
+/*About Section*/
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main sections */
+#about {
+    background: url('../img/about/back.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    position: relative;
+}
+
+#about .inner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+/* Words from Director Section */
+#words-from-director {
+    background: linear-gradient(135deg, #ffffff, #f7f7f7);
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#words-from-director h1 {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+#words-from-director p {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 0;
+}
+
+#about .inner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+
+
+/* Directors Section */
+#director1,
+#director2,
+#director3 {
+    background: linear-gradient(135deg, #e0e2cd, #ebe7e4);
+    color: #0f0e0e;
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#director1 .inner-overlay,
+#director2 .inner-overlay,
+#director3 .inner-overlay {
+    background: rgba(0, 0, 0, 0.7); /* Adjust the overlay color here */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#director1 h1,
+#director2 h1,
+#director3 h1 {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#director1 p,
+#director2 p,
+#director3 p {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#director1 img,
+#director2 img,
+#director3 img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#director1 img:hover,
+#director2 img:hover,
+#director3 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Text and image styles */
+#about-info h1 {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#about-info p {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#about-info img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#about-info img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Animations */
+@keyframes textPopUp {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Custom cards */
+.card-custom {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Services Section */
+#services {
+	background: linear-gradient(to bottom, rgba(212, 176, 176, 0.5), rgba(0, 0, 0, 0.5)), url('../img/slider-img4.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	position: relative;
+	
+}
+
+/* Card Styles */
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    color: #ffffff; /* Adjust text color as needed */
+    opacity: 1; /* Ensure arrows are visible */
+	
+}
+
+.card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-header, .card-footer {
+	background-color: #fdffff;
+	color: #fff;
+	border: none;
+
+}
+
+/* Overlay Text */
+.inner-overlay h1, .inner-overlay p {
+	position: relative;
+	z-index: 2;
+	
+}
+
+/* Overlay for Services Section */
+.inner-overlay::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00000099;
+	z-index: 1;
+	
+}
+
+#Products {
+    background: url('../img/slider-img3.jpg') no-repeat center center; /* Replace with your image path */
+    background-size: cover;
+    position: relative;
+	min-height: 700px;
+
+    z-index: 1;
+    padding: 100px 0; /* Adjust padding as needed */
+}
+
+#Products .inner-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#Products .container {
+    position: relative;
+    z-index: 3;
+}
+
+#contact{
+	background:url('../img/contact2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 700px;
+	position: relative;
+}
+
+
+@media (max-width: 991px){
+	#info .infoS{
+		margin-top:0px;
+	}
+	#gallery img{
+		height: 120px;
+	}
+}
+@media(max-width:767px){
+
+	#get-started .gC{
+		margin-top: 0 !important;
+	}
+	#info p{
+		font-size: 15px;
+		margin-top: 0;
+	}
+	#info h3{
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+	#about-services .card {
+		margin: 5px 0;
+	}
+	#services-faq h5{
+		font-size: 13px;
+	}
+	#services-faq p{
+		font-size: 10px;
+	}
+	#services-table .text-center.display-4 {
+		font-size: 30px;
+	}
+}
+
+@media(max-width: 575px){
+	#showcase .col-lg-4.col-md-4{
+		width: 60%;
+		margin: 0 auto;
+	}
+	#showcase h3{
+		margin: 0;
+	}
+	#info .infoS{
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom:25px;
+	}
+	#gallery img{
+		width: 80%;
+		height: 200px;
+	}
+
+	#gallery .col-lg-4.col-md-4.col-sm-4{
+		width: 80%;
+		height: 200px;
+		margin: 5px auto;
+		margin-left: 50px;
+	}
+
+	#services-faq{
+		height: 600px;
+	}
+}
+@media(max-width: 420px){
+	.navbar .navbar-brand {
+		width: 75%;
+	}
+	#myCarousel .display-4    {
+		font-size: 45px !important;
+	}
+	#showcase .lead{
+		font-size: 16px ;
+	}
+	#get-started  .lead{
+		font-size: 16px ;
+		margin-top: 0;
+	}
+	#get-started  h3{
+		margin-bottom: 0;
+	}
+	#gallery .col-lg-4.col-md-4.col-sm-4{
+		width: 100%;
+		height: 200px;
+		margin: 5px auto;
+		margin-left: 50px;
+	}	
+}
+
+
+
+/* Basic styling for the nav item */
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+/* Styling for the main dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff99;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+/* Show the dropdown content when hovering over the nav link */
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+
+/* Basic styling for links */
+.nav-link, .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: rgba(182, 184, 195, 0.5); /* Add transparency */
+}
+
+/* Styling for the nested dropdown */
+.nested-dropdown {
+    position: relative;
+}
+
+/* Styling for the nested dropdown content */
+.nested-dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #ffffff99;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the nested dropdown content when hovering over the nested dropdown link */
+.nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+}

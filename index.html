@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/uikit.min.css"> 
+	<link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css">
+	<title>e-Kors</title>
+        <!-- Include Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+
+</head>
+<body>
+
+	<!-- Navbar Section Start -->
+	<nav class="navbar navbar- navbar-expand-lg"  uk-sticky="top:100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">
+				<img src="img\Header.jpg" class="img-fluid p-0" style="width: 35%;;">
+				
+			</a>
+			<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navBar">
+				<ul class="navbar-nav  ml-auto ">
+
+					<li class="nav-item active">
+						<a class="nav-link " href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="services.html">Services</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link" href="Products.html">Products</a>
+                        <div class="dropdown-content">
+                            <div class="nested-dropdown">
+                                <a href="#">Lightning Protection System</a>
+                                <div class="nested-dropdown-content">
+                                    <a href="active-lightning.html">Active Lightning Arrester</a>
+                                    <a href="conventional-lightning.html">Conventional Lightning Arrester</a>
+                                </div>
+                            </div>
+                            <a href="earthing-system.html">Earthing System</a>
+                            <a href="exothermic-weld.html">Exothermic Weld</a>
+                            <a href="surge-protection.html">Surge Protection</a>
+                        </div>
+                    </li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Nav Section End -->
+	   
+
+	<!-- Slider Section Start -->
+	<section id="slider" class="bg-dark"> 
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+			
+				<div class="carousel-item crs-img-1 active">
+					<div class="container">
+						<div class="carousel-caption pb-5 mb-5 text-left">
+							<h2 class="display-4 text-light">Welcome to E-KORS</h2>
+							<p class="lead">
+	We, E-Kors Private Limited, specialize in pioneering the future of electrical safety through our expertise in earthing and lightning arrestor solutions. As a professionally managed company, we are dedicated to providing cutting-edge earthing systems that ensure the safety of property, people, and equipment. Additionally, we offer comprehensive solutions in solar EPC and I&C, catering to the complete spectrum of solar energy projects.
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item crs-img-2">
+					<div class="container">
+						<div class="carousel-caption mb-5 text-center">
+							<h2 class="display-4 text-light">Earthing & Lightning Arresters</h2>
+							<p>
+								At E-Kors Private Limited, we provide advanced earthing and lightning arrester solutions to safeguard property, people, and equipment. Using cutting-edge technology and industry best practices, we ensure effective fault current dissipation and protection from lightning strikes.
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item crs-img-3">
+					<div class="container">
+						<div class="carousel-caption pb-5 mb-5 text-right">
+							<h2 class="display-4 text-light">Solar Solutions</h2>
+							<p>
+								At E-Kors Private Limited, we offer end-to-end solar EPC (Engineering, Procurement, and Construction) and I&C (Installation and Commissioning) solutions. From the initial design phase to final installation and operational setup, we provide comprehensive services to ensure efficient and optimal performance of your solar energy systems.
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item crs-img-4">
+					<div class="container">
+						<div class="carousel-caption pb-5 mb-5 text-left">
+							<h2 class="display-4 text-light">Solar BOS Material</h2>
+							<p>
+								We provide a comprehensive range of Solar BOS (Balance of System) materials essential for the efficient and reliable operation of solar energy systems. Our BOS offerings include all components required aside from the solar panels themselves, such as inverters, wiring, mounting structures, and monitoring systems.	</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a href="#myCarousel" class="carousel-control-next" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>		
+	</section>
+	<!-- Slider Section End -->
+
+	<!-- Info Section Start -->
+	<section id="info" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS">
+					<h3 >Why Us</h3>
+					<p class="lead">
+						Achieved high manufacturing standards and is trusted for its quality.
+A very long list of satisfied customers in every field of Industry.
+Supply and Services in PAN India.
+International Trading Experience.
+Having the most reputed projects Nation wide. Customized and Challenging project successful done.
+					</p>
+					
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 align-self-center">
+					<img src="img/info.jpg" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Info Section End -->
+<!-- Info Section End -->
+
+<!-- Values Section Start -->
+<section id="values" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <i class="fas fa-certificate fa-4x"></i>
+                </div>
+                <h3>Our Values</h3>
+                <p class="lead">Our Values are to be on the paramount of the earthing sector with a prime focus on delivering the best quality products to our clients. We strongly believe that good work can build long term business relationships and we really work hard for it.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <i class="fas fa-flag fa-4x"></i>
+                </div>
+                <h3>Mission</h3>
+                <p class="lead">To enhance the safety & reliability of the electrical and electronic systems of our present and future clients, by providing them optimal solutions in the field of Lightning protection, Earthing, and surge protection worldwide</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <i class="fas fa-user-check fa-4x"></i>
+                </div>
+                <h3>Our Team</h3>
+                <p class="lead">Our Values are to be on the paramount of the earthing sector with a prime focus on delivering the best quality products to our clients. We strongly believe that good work can build long term business relationships and we really work hard for it..</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Values Section End -->
+
+<!-- Video Container -->
+<div class="video-container">
+    <!-- Video Tag -->
+    <video controls autoplay>
+        <source src="C:\Users\HP\Documents\Untitled design (1).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+	<!-- Showcase Section Start -->
+	<section id="showcase">
+		<div class="container">
+			<div class="row justify-content-center py-5 text-center">
+				<div class="col-lg-5 col-md-5 mb-4">
+					<i class="fas fa-cogs mb-3"></i>
+					<h3>PARATONEX</h3>
+					<p class="lead mt-2">PARATONEX designs and manufactures high-quality, affordable ESE lightning rods, surge protection devices, and earthing solutions using modern technologies and extensive experience.</p>
+				</div>
+				<div class="col-lg-5 col-md-5 mb-4">
+					<i class="fas fa-cloud mb-3"></i>
+					<h3>KORS</h3>
+					<p class="lead mt-2">E-KORS Group specializes in comprehensive lightning protection, earthing, surge protection, and exothermic work, offering solutions and services with warranties when installed, maintained, and supervised by us.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Showcase Section End -->
+
+	<!-- Get Started Section Start -->
+	<section id="get-started"   class="text-center py-5 text-light">
+		<div class="inner-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col mt-5 pt-4 gC">
+						<h3 class="text-light">OUR MOTO</h3>
+						<p class="lead">
+							We have a vision of promoting the concept of electrical safety in general amoung the users of electricity which is todahy a neglected stctor. In fact we emphasize selection of right size of earthing/Lightning Protection for right application and ensure that important details are followed during the installation so the results obtained are uniform and satisfactory.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Get Started Section End -->
+
+	
+<!-- Video Section Start -->
+<section id="video" class="text-center text-light">
+    <iframe width="866" height="487" src="https://www.youtube.com/embed/FtLvqmOD8eI" title="TC Podcast Ep. #2 Secrets of the Solar Revolution: Save &amp; Earn with Advanced Solar Energy Solutions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<!-- Video Section End -->
+
+<!-- Product Gallery Section Start -->
+<section id="product-gallery">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2 class="mb-0">Our Partners</h2>
+                <p class="lead m-0">Click to check out our clients</p>
+            </div>
+        </div>
+        <div id="productGalleryCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#productGalleryCarousel"></li>
+                <li data-target="#productGalleryCarousel" data-slide-to="1"></li>
+                <li data-target="#productGalleryCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- First item -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\amity-university9126.jpg" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\amity-university9126.jpg" class="img-fluid" alt="Product 1">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\ITC_Limited_Enduring_Value.png" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\ITC_Limited_Enduring_Value.png" class="img-fluid" alt="Product 2">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\jakson logo.png" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\jakson logo.png" class="img-fluid" alt="Product 3">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second item -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\Indian_Space_Research_Organisation_Logo.svg.png" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\Indian_Space_Research_Organisation_Logo.svg.png" class="img-fluid" alt="Product 4">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\JINDALSTEL.webp" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\JINDALSTEL.webp" class="img-fluid" alt="Product 5">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\OTPC_Logo.png" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\OTPC_Logo.png" class="img-fluid" alt="Product 6">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third item -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\WhatsApp Image 2024-07-17 at 12.15.16_00894de4.jpg" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\WhatsApp Image 2024-07-17 at 12.15.16_00894de4.jpg" class="img-fluid" alt="Product 7">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\1234.jpg" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\1234.jpg" class="img-fluid" alt="Product 8">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="outer-box">
+                                    <div class="colored-box bg-light">
+                                        <a href="img\12345.jpg" data-toggle="lightbox" data-gallery="product-gallery">
+                                            <img src="img\12345.jpg" class="img-fluid" alt="Product 9">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <a class="carousel-control-prev" href="#productGalleryCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#productGalleryCarousel" role="button" data-slide="next">
+               
+
+
+
+
+
+
+<div class="row text-center">
+            <div class="col">
+                <h2 class="mb-0">Life at eKors</h2>
+                <p class="lead m-0">Discover what makes us unique</p>
+            </div>
+        </div>
+
+
+
+<!-- Life at eKors Section Start -->
+  <div class="row text-center marquee-wrapper">
+        <div class="col">
+            <div class="marquee-content">
+                <h2 class="mb-0">Our Life at Ekors pvt. limited</h2>
+                
+            </div>
+        </div>
+    </div>
+
+
+<section id="life-at-ekors" class="py-5">
+    <div class="container">
+	
+        
+        <div class="row mt-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="outer-box">
+                    <div class="colored-box bg-light">
+                        <img src="img/cricket.jpg" class="img-fluid" alt="Life at eKors 1">
+                        <h2 class="mt-2">Event 1</h2>
+                        <p class="lead">Event details...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="outer-box">
+                    <div class="colored-box bg-light">
+                        <img src="img/cricket.jpg" class="img-fluid" alt="Life at eKors 2">
+                        <h2 class="mt-2">Event 2</h2>
+                        <p class="lead">Event details...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="outer-box">
+                    <div class="colored-box bg-light">
+                        <img src="img/cricket.jpg" class="img-fluid" alt="Life at eKors 3">
+                        <h2 class="mt-2">Event 3</h2>
+                        <p class="lead">Event details...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="row mt-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="outer-box">
+                    <div class="colored-box bg-light">
+                        <img src="img/cricket.jpg" class="img-fluid" alt="Life at eKors 1">
+                        <h2 class="mt-2">Event 4</h2>
+                        <p class="lead">Event details...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="outer-box">
+                    <div class="colored-box bg-light">
+                        <img src="img/cricket.jpg"class="img-fluid" alt="Life at eKors 2">
+                        <h2 class="mt-2">Event 5</h2>
+                        <p class="lead">Event details...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="outer-box">
+                    <div class="colored-box bg-light">
+                        <img src="img/cricket.jpg" class="img-fluid" alt="Life at eKors 3">
+                        <h2 class="mt-2">Event 6</h2>
+                        <p class="lead">Event details...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</section>
+<!-- Life at eKors Section End -->
+
+
+
+
+
+
+
+
+	<!-- Subscribe Section Start -->
+	<section id="subscribe" class="text-center py-5 bg-dark text-light">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="text-light">Sign-up for Enquiry</h2>
+					<p class="lead">
+										
+					</p>
+					<form class="form-inline justify-content-center ">
+						<input type="text" placeholder="Enter name" class="form-control m-2">
+						<input type="email" placeholder="Enter email" class="form-control m-2">
+						<input type="submit" value="Subscribe" class=" btn btn-primary m-2">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Subcribe Section End -->
+	
+
+	<!-- Footer Section Start -->
+	<footer id="footer" class="py-3 text-center text-light">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="display-5 mb-0 text-light">e-Kors</h2>
+					<div class="d-flex flex-row justify-content-center p-3">
+						<div class="px-5">
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</div>
+						<div class="px-5">
+							<a href="#">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</div>
+						<div class="px-5">
+							<a href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					e-Kors © 2024 All Rights Reserved by Prasad
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+</body>
+</html>
